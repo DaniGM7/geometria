@@ -1,4 +1,5 @@
-//Versión inicial
+package geometria;
+
 public abstract class FiguraGeometrica_DGM {
 
 	protected String tipoFigura;

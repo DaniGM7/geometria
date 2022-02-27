@@ -1,4 +1,5 @@
-//Versión inicial
+package geometria;
+
 public class Triangulo_DGM extends FiguraGeometrica_DGM {
 	private double lado1;
 	private double lado2;

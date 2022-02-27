@@ -1,4 +1,5 @@
-//Versión inicial
+package geometria;
+
 public class Rectangulo_DGM extends FiguraGeometrica_DGM {
 	private double l1;
 	private double l2;
