@@ -6,7 +6,9 @@ public class Circulo_DGM extends FiguraGeometrica_DGM {
 	
 	public Circulo_DGM(double r, String tipoFigura) {
 		super(tipoFigura);
-		radio = r;
+		 if (radio<0) {
+            radio = r*-1;
+        }
 	}
 
 	@Override
